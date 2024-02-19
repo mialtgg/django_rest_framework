@@ -10,5 +10,5 @@ class Makale (models.Model):
     yayımlanma_tarihi = models.DateTimeField(auto_now_add=True)
     güncellenme_tarihi = models.DateTimeField(auto_now =True)
 
-def __str__(self):
-    return self.baslik
+    def __str__(self):
+        return self.baslık
